@@ -1,0 +1,168 @@
+﻿Model,Provider,Task,Parameters,gpu_energy,Latency,Accuracy,kg_co2_per_kwh,Score
+distilgpt2,distilbert,Text Generation,82000000,1.31,,42,0.4585,★★★★★
+opt-125m,facebook,Text Generation,0,1.94,,30.5,0.679,★★★★★
+gpt2,openai-community,Text Generation,137000000,2.15,,45.99,0.7525,★★★★★
+openai-gpt,openai-community,Text Generation,120000000,2.7,,59,0.945,★★★★★
+gpt2-medium,openai-community,Text Generation,380000000,3.96,,55.48,1.386,★★★★★
+OLMo-1B-hf,allenai,Text Generation,1180000000,5.59,,52,1.9565,★★★★★
+gpt2-large,openai-community,Text Generation,812000000,6.12,,60.1,2.142,★★★★★
+phi-1_5,microsoft,Text Generation,1420000000,6.29,,61,2.2015,★★★★★
+phi-1,microsoft,Text Generation,1420000000,6.39,,58.5,2.2365,★★★★★
+SmolLM-135M,HuggingFaceTB,Text Generation,135000000,7.28,,37,2.548,★★★★
+SmolLM-1.7B,HuggingFaceTB,Text Generation,1710000000,7.64,,56,2.674,★★★★
+SmolLM2-1.7B-Instruct,HuggingFaceTB,Text Generation,1710000000,7.71,,57.5,2.6985,★★★★
+opt-2.7b,facebook,Text Generation,0,8.06,,62,2.821,★★★★
+SmolLM-360M,HuggingFaceTB,Text Generation,362000000,8.1,,42,2.835,★★★★
+gemma-2b,google,Text Generation,2510000000,8.68,,58,3.038,★★★★
+gpt2-xl,openai-community,Text Generation,1610000000,8.92,,64.3,3.122,★★★★
+phi-2,microsoft,Text Generation,2780000000,9.86,,66,3.451,★★★★
+falcon-7b,tiiuae,Text Generation,7220000000,15.88,,67.5,5.558,★★★
+Llama-2-7b-hf,meta-llama,Text Generation,6740000000,16.44,,68,5.754,★★★
+OLMo-1.7-7B-hf,allenai,Text Generation,6890000000,16.83,,67,5.8905,★★★
+Meta-Llama-3-8B,meta-llama,Text Generation,8030000000,17.33,,69.2,6.0655,★★★
+Meta-Llama-3.1-8B,meta-llama,Text Generation,8030000000,17.38,,70,6.083,★★★
+aya-23-8B,CohereForAI,Text Generation,8030000000,17.82,,67.5,6.237,★★
+gemma-2-2b-it,google,Text Generation,2610000000,18.64,,61,6.524,★★
+gemma-7b,google,Text Generation,8540000000,18.9,,68.3,6.615,★★
+Starling-LM-7B-alpha,berkeley-nest,Text Generation,7240000000,19.01,,69.5,6.6535,★★
+Mistral-7B-v0.1,mistralai,Text Generation,7240000000,19.13,,70.1,6.6955,★★
+xLAM-7b-r,Salesforce,Text Generation,7240000000,19.17,,69,6.7095,★★
+Ministral-8B-Instruct-2410,mistralai,Text Generation,8020000000,20.87,,71.2,7.3045,★★
+Yi-1.5-9B,01-ai,Text Generation,8830000000,23,,72,8.05,★★
+Llama-2-13b-hf,meta-llama,Text Generation,13000000000,26.1,,72.8,9.135,★
+phi-4,microsoft,Text Generation,14700000000,28.74,,74.3,10.059,★
+,,,,,,,,
+mitsua-diffusion-one,Mitsua,Image Generation,,186.81,,31.67,65.3835,★★★★★
+Counterfeit-V2.5,gsdf,Image Generation,,187.37,,26.33,65.5795,★★★★★
+sd-turbo,stabilityai,Image Generation,,189.86,,66,66.451,★★★★★
+openjourney,prompthero,Image Generation,,196.88,,55,68.908,★★★★★
+openjourney-v4,prompthero,Image Generation,,203.37,,57.33,71.1795,★★★★★
+LCM_Dreamshaper_v7,SimianLuo,Image Generation,,322.04,,68,112.714,★★★★★
+sdxl-turbo,stabilityai,Image Generation,,385.57,,70.67,134.9495,★★★★★
+stable-diffusion-2-1,stabilityai,Image Generation,,534.47,,56.67,187.0645,★★★★
+dreamlike-photoreal-2.0,dreamlike-art,Image Generation,,581.33,,65,203.4655,★★★★
+epiCPhotoGasm,Yntec,Image Generation,,586.57,,60.67,205.2995,★★★★
+stable-cascade,stabilityai,Image Generation,,"1,214.36",,69.33,425.026,★★
+stable-diffusion-xl-base-1.0,stabilityai,Image Generation,,"1,639.85",,75,573.9475,★
+,,,,,,,,
+distilbert-imdb,lvwerra,Text Classification,,0.22,,89.9,0.077,★★★★★
+distilbert-base-uncased-finetuned-sst-2-english,distilbert,Text Classification,67000000,0.22,,92.3,0.077,★★★★★
+distilbert-base-multilingual-cased-sentiments-student,lxyuan,Text Classification,135000000,0.22,,91,0.077,★★★★★
+electra-base-emotion,bhadresh-savani,Text Classification,,0.25,,91.95,0.0875,★★★★★
+gpt2-imdb-sentiment-classifier,mnoukhov,Text Classification,,0.32,,87,0.112,★★★★★
+bert-base-multilingual-uncased-sentiment,nlptown,Text Classification,167000000,0.36,,,0.126,★★★★★
+gpt2-medium-finetuned-sst2-sentiment,michelecafagna26,Text Classification,,0.8,,94,0.28,★★★★★
+bert-large-sst2,Cheng98,Text Classification,,0.92,,94.9,0.322,★★★★★
+t5-small,google-t5,Text Classification,60500000,2.22,,85,0.777,★★★★★
+t5-base,google-t5,Text Classification,223000000,4.13,,90,1.4455,★★★★★
+t5-large,google-t5,Text Classification,738000000,7.92,,92,2.772,★★★★
+t5-3b,google-t5,Text Classification,2850000000,11.68,,94,4.088,★★★
+t5-11b,google-t5,Text Classification,,27.79,,95,9.7265,★
+,,,,,,,,
+resnet-18,microsoft,Image Classification,11700000,0.3,,69.8,0.105,★★★★★
+vit-tiny-patch16-224,WinKawaks,Image Classification,5720000,0.38,,72.2,0.133,★★★★★
+resnet-50,microsoft,Image Classification,25600000,0.39,,76,0.1365,★★★★★
+mobilenet_v2_1.0_224,google,Image Classification,3540000,0.41,,71.8,0.1435,★★★★★
+convnext-tiny-224,facebook,Image Classification,,0.45,,82.1,0.1575,★★★★★
+mobilevit-small,apple,Image Classification,,0.51,,78.4,0.1785,★★★★★
+vit-base-patch16-224,google,Image Classification,86600000,0.58,,81.8,0.203,★★★★★
+beit-base-patch16-224,microsoft,Image Classification,87000000,0.74,,83.2,0.259,★★★★★
+vit-base-patch32-384,google,Image Classification,88300000,0.76,,81.6,0.266,★★★★★
+swinv2-tiny-patch4-window8-256,microsoft,Image Classification,,0.77,,83.5,0.2695,★★★★
+beit-base-patch16-224-pt22k-ft22k,microsoft,Image Classification,,0.78,,85.2,0.273,★★★★
+bit-50,google,Image Classification,,0.83,,83.3,0.2905,★★★★
+swinv2-tiny-patch4-window16-256,microsoft,Image Classification,,0.85,,83.5,0.2975,★★★★
+convnext-large-224,facebook,Image Classification,,0.97,,85.8,0.3395,★★★★
+vit-base-patch16-384,google,Image Classification,86900000,0.99,,82.5,0.3465,★★★★
+convnext-base-384-22k-1k,facebook,Image Classification,,1.12,,85.3,0.392,★★★★
+vit-large-patch32-384,google,Image Classification,,1.16,,85.2,0.406,★★★★
+swinv2-large-patch4-window12-192-22k,microsoft,Image Classification,,1.29,,86.1,0.4515,★★★
+swinv2-large-patch4-window12-192-22k,microsoft,Image Classification,,1.39,,86.1,0.4865,★★★
+swin-base-patch4-window12-384,microsoft,Image Classification,,1.53,,85.2,0.5355,★★★
+efficientnet-b7,google,Image Classification,,1.85,,84.3,0.6475,★★
+mit-b5,nvidia,Image Classification,,2.49,,84.5,0.8715,★
+vision-perceiver-conv,deepmind,Image Classification,,2.64,,83.8,0.924,★
+,,,,,,,,
+pix2struct-base,google,Image Captioning,282000000,45.75,,80,16.0125,★★★★★
+blip-image-captioning-base,Salesforce,Image Captioning,,47.12,,87,16.492,★★★★★
+blip-image-captioning-large,Salesforce,Image Captioning,470000000,48.51,,93,16.9785,★★★★★
+git-base,microsoft,Image Captioning,177000000,74.71,,90,26.1485,★★★★
+blip2-opt-2.7b,Salesforce,Image Captioning,3740000000,101.34,,94 ,35.469,★★★
+blip2-flan-t5-xl,Salesforce,Image Captioning,3940000000,102.15,,96,35.7525,★★★
+vlrm-blip2-opt-2.7b,sashakunitsyn,Image Captioning,3740000000,103.35,,94,36.1725,★★★
+git-large-coco,microsoft,Image Captioning,394000000,170.32,,92,59.612,★
+blip2-opt-6.7b,Salesforce,Image Captioning,7750000000,174.96,,100,61.236,★
+blip2-flan-t5-xxl,Salesforce,Image Captioning,12200000000,179.93,,99,62.9755,★
+,,,,,,,,
+bart_summarizer_model,KipperDev,Summarization,139000000,0.78,,85,0.273,★★★★★
+distilbart-xsum-12-1,sshleifer,Summarization,,1.05,,83,0.3675,★★★★★
+distilbart-cnn-12-6,sshleifer,Summarization,,1.48,,84,0.518,★★★★★
+bart-large-cnn,facebook,Summarization,406000000,2.04,,89,0.714,★★★★★
+t5-small,google-t5,Summarization,60500000,2.27,,78,0.7945,★★★★★
+bigbird-pegasus-large-arxiv,google,Summarization,,3.52,,91,1.232,★★★★★
+t5-base,google-t5,Summarization,223000000,4.23,,82,1.4805,★★★★★
+led-large-book-summary,pszemraj,Summarization,460000000,4.29,,87,1.5015,★★★★★
+t5-large,google-t5,Summarization,738000000,8.68,,88,3.038,★★★★
+t5-3b,google-t5,Summarization,2850000000,13.24,,92,4.634,★★★★
+t5-11b,google-t5,Summarization,,34.81,,94,12.1835,★
+,,,,,,,,
+wav2vec2-base-960h,facebook,Automatic Speech Recognition,94400000,0.62,,86,0.217,★★★★★
+sew-d-base-plus-400k-ft-ls100h,asapp,Automatic Speech Recognition,177000000,1.54,,85,0.539,★★★★★
+hubert-large-ls960-ft,facebook,Automatic Speech Recognition,,1.62,,87,0.567,★★★★★
+mms-1b-all,facebook,Automatic Speech Recognition,965000000,4.28,,89,1.498,★★★★★
+whisper-tiny,openai,Automatic Speech Recognition,37800000,13.44,,74,4.704,★★★★★
+distil-small.en,distil-whisper,Automatic Speech Recognition,166000000,15.57,,75,5.4495,★★★★★
+whisper-base,openai,Automatic Speech Recognition,72600000,16.55,,77,5.7925,★★★★★
+distil-medium.en,distil-whisper,Automatic Speech Recognition,394000000,16.97,,78,5.9395,★★★★★
+s2t-small-librispeech-asr,facebook,Automatic Speech Recognition,29500000,17.2,,79,6.02,★★★★★
+distil-large-v2,distil-whisper,Automatic Speech Recognition,756000000,21.52,,80,7.532,★★★★
+whisper-small,openai,Automatic Speech Recognition,242000000,29.97,,82,10.4895,★★★★
+whisper-medium,openai,Automatic Speech Recognition,764000000,61.42,,88,21.497,★★
+whisper-large-v3,openai,Automatic Speech Recognition,1540000000,86.68,,91,30.338,★
+,,,,,,,,
+yolos-tiny,hustvl,Object Detection,6490000,1,,73,0.35,★★★★★
+conditional-detr-resnet-50,microsoft,Object Detection,43500000,2.14,,78,0.749,★★★★★
+detr-resnet-101,facebook,Object Detection,60700000,2.53,,85 ,0.8855,★★★★
+detr-resnet-50-dc5,facebook,Object Detection,41600000,3.28,,83,1.148,★★★★
+yolos-small,hustvl,Object Detection,30700000,3.28,,80,1.148,★★★★
+detr-resnet-50-dc5,facebook,Object Detection,41600000,3.29,,83 ,1.1515,★★★★
+yolos-base,hustvl,Object Detection,,7.98,,88 ,2.793,★
+,,,,,,,,
+GIST-all-MiniLM-L6-v2,avsolatorio,Sentence Similarity,22700000,0.11,,75 ,FALSE,★★★★★
+bge-small-en-v1.5,BAAI,Sentence Similarity,33400000,0.19,,77,0.0665,★★★★★
+gte-base,thenlper,Sentence Similarity,109000000,0.25,,79 ,0.0875,★★★★★
+bge-base-en-v1.5,BAAI,Sentence Similarity,109000000,0.25,,80,0.0875,★★★★★
+e5-base-v2,intfloat,Sentence Similarity,109000000,0.25,,81 ,0.0875,★★★★★
+GIST-Embedding-v0,avsolatorio,Sentence Similarity,109000000,0.26,,82 ,0.091,★★★★★
+nomic-embed-text-v1,nomic-ai,Sentence Similarity,137000000,0.38,,84 ,0.133,★★★★★
+ember-v1,llmrails,Sentence Similarity,335000000,0.58,,86,0.203,★★★★★
+GIST-large-Embedding-v0,avsolatorio,Sentence Similarity,335000000,0.58,,87 ,0.203,★★★★★
+mxbai-embed-large-v1,mixedbread-ai,Sentence Similarity,335000000,0.59,,88,0.2065,★★★★★
+gte-large,thenlper,Sentence Similarity,335000000,0.59,,88,0.2065,★★★★★
+UAE-Large-V1,WhereIsAI,Sentence Similarity,335000000,0.6,,89,0.21,★★★★★
+e5-large-v2,intfloat,Sentence Similarity,335000000,0.6,,89,0.21,★★★★★
+multilingual-e5-large-instruct,intfloat,Sentence Similarity,560000000,0.72,,90,0.252,★★★★★
+udever-bloom-1b1,izhx,Sentence Similarity,,0.97,,91,0.3395,★★★★★
+udever-bloom-3b,izhx,Sentence Similarity,,2.15,,93,0.7525,★★★
+udever-bloom-7b1,izhx,Sentence Similarity,,4.7,,95,1.645,★
+GritLM-7B,GritLM,Sentence Similarity,7240000000,5.03,,96,1.7605,★
+SFR-Embedding-Mistral,Salesforce,Sentence Similarity,7110000000,5.22,,97,1.827,★
+,,,,,,,,
+bert-tiny-finetuned-squadv2,mrm8488,Question Answering,4390000,0.06,,65,0.021,★★★★★
+dynamic_tinybert,Intel,Question Answering,,0.21,,68,0.0735,★★★★★
+question_answering_v2,Falconsai,Question Answering,66400000,0.23,,69,0.0805,★★★★★
+distilbert-base-cased-distilled-squad,distilbert,Question Answering,65200000,0.24,,72,0.084,★★★★★
+minilm-uncased-squad2,deepset,Question Answering,33400000,0.25,,74,0.0875,★★★★★
+electra-base-squad2,deepset,Question Answering,109000000,0.47,,76,0.1645,★★★★★
+deberta-v3-base-squad2,deepset,Question Answering,184000000,0.81,,78,0.2835,★★★★★
+mdeberta-v3-base-squad2,timpal0l,Question Answering,278000000,0.86,,79,0.301,★★★★★
+mobilebert-uncased-squad-v2,csarron,Question Answering,24600000,0.94,,80,0.329,★★★★★
+bert-large-uncased-whole-word-masking-squad2,deepset,Question Answering,335000000,1.05,,81,0.3675,★★★★★
+longformer-base-4096-finetuned-squadv2,mrm8488,Question Answering,,1.79,,82,0.6265,★★★★★
+deberta-v3-large-squad2,deepset,Question Answering,434000000,1.88,,83,0.658,★★★★★
+longformer-large-4096-finetuned-triviaqa,allenai,Question Answering,,3.97,,82,1.3895,★★★★★
+t5-small,google-t5,Question Answering,60500000,20.64,,75,7.224,★★★★★
+t5-base,google-t5,Question Answering,223000000,34.36,,78,12.026,★★★★★
+t5-large,google-t5,Question Answering,738000000,72.28,,83,25.298,★★★
+t5-3b,google-t5,Question Answering,2850000000,87.7,,88,30.695,★★★
+t5-11b,google-t5,Question Answering,,178.13,,91,62.3455,★
