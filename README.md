@@ -89,20 +89,3 @@ This will open two new command windows:
 
 If you prefer a single-window approach you can install `concurrently` and run both services in one terminal (see notes in repo). The `start-dev.bat` approach is the recommended quick dev workflow on Windows since it uses cmd activation for the venv.
 
-## Push this project to GitHub
-
-To push this repository to GitHub at `https://github.com/ftttmhh/susAI.git`, run the following from the project root (PowerShell):
-
-```powershell
-# initialize git if you haven't already
-git init
-git add .
-git commit -m "Initial commit - Sustainable AI Recommender"
-
-# add remote and push (use your GitHub credentials or SSH key)
-git remote add origin https://github.com/ftttmhh/susAI.git
-git branch -M main
-git push -u origin main
-```
-
-If you prefer SSH you can add the remote as `git@github.com:ftttmhh/susAI.git` instead. If the repo already exists on GitHub and you have permissions it will accept the push; otherwise create the repository via the GitHub web UI and then run the commands above.
