@@ -56,6 +56,25 @@ npm start
 
 2. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+--------------------------OR-----------------------------------------
+## Start both frontend & backend quickly (Windows)
+
+Use the provided `start-dev.bat` from the project root to open two terminals and start both services automatically (backend with the virtualenv activation and uvicorn, frontend with `npm start`). From PowerShell or Explorer run:
+
+```powershell
+# from project root
+.\start-dev.bat
+```
+
+This will open two new command windows:
+- Backend: activates `backend/.venv` and runs `uvicorn main:app --reload --port 8000`
+- Frontend: runs `npm start` in the `frontend` folder
+
+If you prefer a single-window approach you can install `concurrently` and run both services in one terminal (see notes in repo). The `start-dev.bat` approach is the recommended quick dev workflow on Windows since it uses cmd activation for the venv.
+
+
+
+HELP YOURSELF!
 ## Notes
 - The backend uses BERT for task classification and filters models from the CSV.
 - The frontend provides a UI for task input, constraints, and displays recommendations.
@@ -74,18 +93,4 @@ Notes on interpretation:
 - `energy_saved_wh_per_1k` displayed in the results is computed as `max(baseline_energy - candidate_energy, 0)`. It is NOT a sum — it is the amount of energy (Wh per 1k inferences) you would save by switching from the baseline to the candidate.
 - `baseline_comparable_score` is the recomputed score for the baseline when included in the same normalized pool; compare it to the `score` values in the recommendations to see why a baseline was or wasn't ranked higher.
 
-## Start both frontend & backend quickly (Windows)
-
-Use the provided `start-dev.bat` from the project root to open two terminals and start both services automatically (backend with the virtualenv activation and uvicorn, frontend with `npm start`). From PowerShell or Explorer run:
-
-```powershell
-# from project root
-.\start-dev.bat
-```
-
-This will open two new command windows:
-- Backend: activates `backend/.venv` and runs `uvicorn main:app --reload --port 8000`
-- Frontend: runs `npm start` in the `frontend` folder
-
-If you prefer a single-window approach you can install `concurrently` and run both services in one terminal (see notes in repo). The `start-dev.bat` approach is the recommended quick dev workflow on Windows since it uses cmd activation for the venv.
 
