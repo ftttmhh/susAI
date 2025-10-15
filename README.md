@@ -1,30 +1,5 @@
 # Sustainable AI Model Recommender
 
-## Project Structure
-
-```
-susAI/
-├── backend/
-│   ├── requirements.txt
-│   ├── main.py
-│   ├── classifier.py
-│   ├── recommender.py
-│   ├── recommender_wrapper.py
-│   ├── model_metadata.csv  # <-- Place your CSV here
-│   └── ...
-└── frontend/
-    ├── package.json
-    ├── src/
-    │   ├── App.js
-    │   ├── api.js
-    │   └── components/
-    │       ├── TaskInput.js
-    │       ├── ConstraintsPanel.js
-    │       └── ResultsTable.js
-    └── public/
-        └── index.html
-```
-
 ## Backend Setup
 
 1. Open a terminal in `backend/`:
@@ -72,7 +47,11 @@ This will open two new command windows:
 
 If you prefer a single-window approach you can install `concurrently` and run both services in one terminal (see notes in repo). The `start-dev.bat` approach is the recommended quick dev workflow on Windows since it uses cmd activation for the venv.
 
-
+-
+-
+-
+-
+-
 
 HELP YOURSELF!
 ## Notes
